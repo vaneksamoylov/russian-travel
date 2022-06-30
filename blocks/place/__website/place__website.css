@@ -1,0 +1,9 @@
+.place__website {
+  max-width: 484px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+}
