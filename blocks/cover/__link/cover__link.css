@@ -1,8 +1,8 @@
-.cover__item {
+.cover__link {
   background-image: url("../../../images/background.jpg");
   display: flex;
   text-decoration: none;
-  min-height: 740px;
+  min-height: calc(100vw * .6);
   flex-direction: column;
   justify-content: center;
   padding: 0;
@@ -13,7 +13,7 @@
   margin: 0;
 }
 
-.cover__item::before {
+.cover__link::before {
   content: "";
   background-color: black;
   opacity: 0.3;
@@ -26,6 +26,6 @@
   transition: 0.3s;
 }
  
-.cover__item:hover::before {
+.cover__link:hover::before {
   opacity: 0.8;
 }

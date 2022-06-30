@@ -7,3 +7,12 @@
   color: #FFF;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 33px auto 16px;
+    text-align: center;
+  }
+}
