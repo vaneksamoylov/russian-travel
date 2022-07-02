@@ -16,3 +16,8 @@
     line-height: 26.08px;
   }
 }
+@media (max-width: 767px) {
+  .place__paragraph-el:first-child {
+    padding-top: 16px;
+  }
+}

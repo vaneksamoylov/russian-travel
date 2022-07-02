@@ -17,5 +17,6 @@
 @media (max-width: 767px) {
   .place__url-heading {
     padding-left: 16px;
+    padding-top: 16px;
   }
 }
