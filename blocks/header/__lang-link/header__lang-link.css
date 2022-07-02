@@ -3,4 +3,10 @@
   font-weight: 400;
   color: #FFF;
   cursor: pointer;
+  transition: opacity .3s linear;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }

@@ -6,7 +6,7 @@
   text-align: center;
 
   max-width: 360px;
-  padding-top: 32px;
+  padding: 32px 0 0 0;
   margin: 0 auto 33px;
 }
 
@@ -14,5 +14,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
+    padding-top: 0;
   }
 }

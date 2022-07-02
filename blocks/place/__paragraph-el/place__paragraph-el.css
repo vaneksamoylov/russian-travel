@@ -1,0 +1,18 @@
+.place__paragraph-el {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.34px;
+  color: #FFF;
+  padding-bottom: 26px;
+}
+
+.place__paragraph-el:last-child {
+  padding: 0;
+}
+
+@media (max-width: 1023px) {
+  .place__paragraph-el {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}

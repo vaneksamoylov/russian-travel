@@ -1,4 +1,6 @@
 .intro__title {
+  max-width: 690px;
+  width: 100%;
   color: #FFF;
   font-size: 54px;
   font-weight: 900;
